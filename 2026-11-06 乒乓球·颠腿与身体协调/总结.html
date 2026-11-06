@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>乒乓正手基础：颠腿与身体协调训练总结</title>
+<style>
+:root{
+  --bg:#f6f6f3; --fg:#1b1b1d; --muted:#6c6c72; --line:#e3e3dc;
+  --card:#ffffff; --accent:#0e6b4c; --soft:#e8f2ed; --warm:#b4552d; --warm-soft:#fbeee7;
+}
+@media (prefers-color-scheme:dark){
+  :root{--bg:#121212;--fg:#eaeaea;--muted:#9b9b9b;--line:#2b2b2b;
+        --card:#1a1a1a;--accent:#63d3a6;--soft:#182a23;--warm:#e08c62;--warm-soft:#2a1d16;}
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{
+  margin:0;background:var(--bg);color:var(--fg);
+  font:16px/1.95 -apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC",
+       "Hiragino Sans GB","Microsoft YaHei",sans-serif;
+}
+.wrap{max-width:760px;margin:0 auto;padding:56px 22px 90px}
+header{border-bottom:1px solid var(--line);padding-bottom:26px;margin-bottom:34px}
+.kicker{font-size:.76em;letter-spacing:.18em;color:var(--accent);text-transform:uppercase;margin-bottom:14px}
+h1{font-size:1.72em;line-height:1.45;margin:0 0 14px;letter-spacing:.4px;font-weight:700}
+.lede{color:var(--muted);font-size:.95em;margin:0}
+.meta{margin-top:16px;color:var(--muted);font-size:.78em}
+
+h2{font-size:1.14em;margin:46px 0 16px;padding-left:13px;line-height:1.5;border-left:3px solid var(--accent)}
+h2 .num{color:var(--accent);font-weight:400;margin-right:8px;font-variant-numeric:tabular-nums}
+p{margin:0 0 15px}
+ul,ol{margin:0 0 15px;padding-left:1.35em}
+li{margin:0 0 9px}
+strong{font-weight:600;color:var(--fg)}
+.accent{color:var(--accent);font-weight:600}
+
+.cards{counter-reset:step;list-style:none;padding:0;margin:22px 0 8px}
+.cards li{
+  counter-increment:step;position:relative;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;padding:15px 18px 15px 56px;margin:0 0 11px;
+}
+.cards li::before{
+  content:counter(step);position:absolute;left:16px;top:15px;
+  width:26px;height:26px;border-radius:50%;background:var(--soft);color:var(--accent);
+  font-size:.82em;font-weight:600;display:flex;align-items:center;justify-content:center;
+}
+.cards .k{font-weight:600;display:block;margin-bottom:2px}
+.cards .v{color:var(--muted);font-size:.94em}
+
+.quote{
+  background:var(--soft);border-radius:12px;padding:20px 22px;margin:24px 0;
+  border-left:3px solid var(--accent);font-size:1.02em;
+}
+.quote p:last-child{margin-bottom:0}
+
+.warn{
+  background:var(--warm-soft);border-radius:12px;padding:16px 20px;margin:20px 0;
+  border-left:3px solid var(--warm);
+}
+.warn .t{font-weight:600;color:var(--warm);display:block;margin-bottom:4px}
+.warn p{margin:0;font-size:.95em}
+
+table{width:100%;border-collapse:collapse;margin:22px 0;font-size:.93em}
+th,td{text-align:left;padding:11px 12px;border-bottom:1px solid var(--line);vertical-align:top}
+th{font-weight:600;color:var(--muted);font-size:.86em;letter-spacing:.04em}
+td.step{white-space:nowrap;color:var(--accent);font-weight:600}
+
+.three{list-style:none;padding:0;margin:20px 0}
+.three li{
+  margin:0 0 10px;padding:14px 18px;background:var(--card);
+  border:1px solid var(--line);border-radius:12px;font-size:1.02em;
+}
+.three .n{color:var(--accent);font-weight:700;margin-right:9px}
+
+footer{
+  margin-top:56px;padding-top:20px;border-top:1px solid var(--line);
+  color:var(--muted);font-size:.79em;line-height:1.8;
+}
+@media (max-width:520px){
+  .wrap{padding:34px 16px 72px}
+  h1{font-size:1.42em}
+  .cards li{padding-left:50px}
+  th,td{padding:9px 8px}
+}
+@media print{
+  body{background:#fff;color:#000;font-size:10.8pt}
+  .wrap{max-width:none;padding:0}
+  h2{page-break-after:avoid}
+  .cards li,.quote,.three li,.warn{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="kicker">乒乓球 · 正手基础训练</div>
+  <h1>先练颠腿：把身体协调起来，再谈重心转换</h1>
+  <p class="lede">这段教学讲的不是某个击球动作，而是一个更底层的问题——身体不会动，手上再对也没用。教练给出的解法只有一个：先用「颠腿」把身体的律动感和协调性练出来，再去加重心转换，最后才加步法。</p>
+  <div class="meta">内容整理自教学讲解 · 全文约 1200 字 · 阅读 4 分钟</div>
+</header>
+
+<h2><span class="num">01</span>问题的本质：一加身体，动作就散了</h2>
+<p>只用手臂挥拍，大多数人是协调的；一旦要求身体参与进来，腿是腿、胳膊是胳膊、腰是腰，各走各的，整个人就<span class="accent">拧在一起</span>，怎么都整不明白。</p>
+<p>这不是动作细节的问题，而是<span class="accent">协调性</span>的问题。所以训练顺序必须先立住：<strong>身体先协调，再去做重心转换</strong>。顺序反了，动作永远是僵的。</p>
+
+<h2><span class="num">02</span>颠腿：动作要领</h2>
+<p>颠腿是整套训练的地基。动作本身很简单，但要点一个都不能少。</p>
+<ul class="cards">
+  <li><span class="k">站位</span><span class="v">双腿打开、略比肩宽，脚尖冲前。</span></li>
+  <li><span class="k">屈膝</span><span class="v">身体前倾，微微屈膝即可，不用刻意蹲低。</span></li>
+  <li><span class="k">受力在前脚掌</span><span class="v">全部重量落在两个前脚掌上，后脚跟始终着地、不抬起来。</span></li>
+  <li><span class="k">重心居中</span><span class="v">重心放在两脚中间，不能偏左，也不能偏右。</span></li>
+  <li><span class="k">同时发力</span><span class="v">大腿小腿一起发力，重点体会大腿前侧的发力感；想象膝关节是一个小弹簧。</span></li>
+  <li><span class="k">跟着球走</span><span class="v">球的节奏就是颠的节奏——球快颠快，球慢颠慢，身体始终合上球的律动。</span></li>
+</ul>
+
+<div class="warn">
+  <span class="t">最容易做错的一点</span>
+  <p>颠着颠着，把后脚跟抬起来、用脚尖去颠。这是错的——脚后跟必须老老实实着地，劲儿要从两个前脚掌同时往上走。</p>
+</div>
+
+<h2><span class="num">03</span>练习顺序：四步，一步都不能跳</h2>
+<table>
+  <thead>
+    <tr><th>顺序</th><th>练什么</th><th>要求</th></tr>
+  </thead>
+  <tbody>
+    <tr><td class="step">第一步</td><td>徒手挥拍</td><td>只管手上，先把挥拍动作做顺。</td></tr>
+    <tr><td class="step">第二步</td><td>加身体：颠起来</td><td>开始颠腿，但<strong>先不做重心转换</strong>，只求身体和球的节奏对上。</td></tr>
+    <tr><td class="step">第三步</td><td>加重心转换</td><td>身体能持续跟着球颠了，再在这个基础上做重心转换，这时自然就协调了。</td></tr>
+    <tr><td class="step">第四步</td><td>加步法</td><td>在颠的状态下移动，正手、反手都要颠，不能只颠一边。</td></tr>
+  </tbody>
+</table>
+
+<div class="warn">
+  <span class="t">错误的练法</span>
+  <p>上手就直接练重心转换，跳过颠腿这一步。这样练，练多久都练不出协调，属于「一辈子也练不协调」的路子。</p>
+</div>
+
+<h2><span class="num">04</span>为什么要颠着打</h2>
+<p>站住不动等球，对方一变线，你会觉得<span class="accent">特别突然</span>，脚底下根本来不及，比赛里更是上不去。颠起来的人始终处在「发动中」，变线也不觉得突然，随时能起手。</p>
+<p>所以正手要颠、反手也要颠——颠腿不是热身的小动作，而是让身体一直保持待发状态的开关。</p>
+
+<h2><span class="num">05</span>顺带治好的老毛病：重心来回倒</h2>
+<p>很多业余球友的典型问题：球到正手，重心倒到右腿；球到反手，重心又倒到左腿。一会儿右腿使劲、一会儿左腿使劲，看着是在动，其实是两条腿轮流单干。</p>
+<p>这种打法一旦进入相持，就跟不上人家了。颠腿要求<strong>两个脚同时使劲</strong>，练好之后重心才会稳——移动过程中也是两条腿一起在支撑，而不是一会儿踩这条、一会儿踩那条。</p>
+
+<h2><span class="num">06</span>记住这三句话</h2>
+<ul class="three">
+  <li><span class="n">一</span>先协调，再转换。身体不会动，动作再对也没用。</li>
+  <li><span class="n">二</span>前脚掌使劲，后脚跟不离地。</li>
+  <li><span class="n">三</span>两个脚同时使劲，才颠得起来，也才稳得住。</li>
+</ul>
+
+<footer>
+  <div>本文由该教学视频的语音内容整理、归纳而成，已去除口语重复与字幕时间轴，保留讲解的要点与逻辑。</div>
+  <div>配套文件：同目录下的「转写文稿.html」为完整逐句原话（可搜索、可试听）。</div>
+</footer>
+
+</div>
+</body>
+</html>
